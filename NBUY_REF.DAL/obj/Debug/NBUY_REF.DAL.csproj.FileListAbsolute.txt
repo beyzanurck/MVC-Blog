@@ -1,0 +1,16 @@
+C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.DAL\bin\Debug\NBUY_REF.DAL.dll.config
+C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.DAL\bin\Debug\NBUY_REF.DAL.dll
+C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.DAL\bin\Debug\NBUY_REF.DAL.pdb
+C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.DAL\bin\Debug\EntityFramework.dll
+C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.DAL\bin\Debug\NBUY_REF.Entities.dll
+C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.DAL\bin\Debug\NBUY_REF.Entities.pdb
+C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.DAL\bin\Debug\EntityFramework.xml
+C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.DAL\obj\Debug\NBUY_REF.DAL.csprojAssemblyReference.cache
+C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.DAL\obj\Debug\NBUY_REF.DAL.csproj.CoreCompileInputs.cache
+C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.DAL\obj\Debug\NBUY_REF.DAL.csproj.CopyComplete
+C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.DAL\obj\Debug\NBUY_REF.DAL.dll
+C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.DAL\obj\Debug\NBUY_REF.DAL.pdb
+C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.DAL\obj\Debug\NBUY_REF.DAL.Migrations.CreateRawBlog.resources
+C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.DAL\obj\Debug\NBUY_REF.DAL.csproj.GenerateResource.cache
