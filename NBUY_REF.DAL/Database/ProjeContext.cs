@@ -19,12 +19,15 @@ namespace NBUY_REF.DAL.Database
         {
             modelBuilder.Configurations.Add(new ContactPageMappings());
             modelBuilder.Configurations.Add(new AboutPageMappings());
+            modelBuilder.Configurations.Add(new IndexPageMappings());
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
 
         public DbSet<AboutPage> AboutPage { get; set; }
 
         public DbSet<ContactPage> ContactPage { get; set; }
+
+        public DbSet<IndexPage> IndexPage { get; set; }
 
 
     }

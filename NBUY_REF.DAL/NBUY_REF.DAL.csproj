@@ -51,11 +51,21 @@
     <Compile Include="Database\ProjeContext.cs" />
     <Compile Include="Management\AboutManagement.cs" />
     <Compile Include="Management\ContactManagement.cs" />
+    <Compile Include="Management\IndexManagement.cs" />
     <Compile Include="Mappings\AboutPageMappings.cs" />
     <Compile Include="Mappings\ContactPageMappings.cs" />
+    <Compile Include="Mappings\IndexPageMappings.cs" />
     <Compile Include="Migrations\201912151302311_CreateRawBlog.cs" />
     <Compile Include="Migrations\201912151302311_CreateRawBlog.Designer.cs">
       <DependentUpon>201912151302311_CreateRawBlog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912170732033_AddedIndexPage.cs" />
+    <Compile Include="Migrations\201912170732033_AddedIndexPage.Designer.cs">
+      <DependentUpon>201912170732033_AddedIndexPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912170738037_UpdateIndexPageName.cs" />
+    <Compile Include="Migrations\201912170738037_UpdateIndexPageName.Designer.cs">
+      <DependentUpon>201912170738037_UpdateIndexPageName.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,6 +83,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201912151302311_CreateRawBlog.resx">
       <DependentUpon>201912151302311_CreateRawBlog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912170732033_AddedIndexPage.resx">
+      <DependentUpon>201912170732033_AddedIndexPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912170738037_UpdateIndexPageName.resx">
+      <DependentUpon>201912170738037_UpdateIndexPageName.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

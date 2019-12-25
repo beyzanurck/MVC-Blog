@@ -43,7 +43,7 @@
   <ItemGroup>
     <Compile Include="AboutPageServices.cs" />
     <Compile Include="ContactPageServices.cs" />
-    <Compile Include="ProjeContext.cs" />
+    <Compile Include="IndexPageServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

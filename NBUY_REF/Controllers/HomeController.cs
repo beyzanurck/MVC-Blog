@@ -11,17 +11,20 @@ namespace NBUY_REF.Controllers
     {
         AboutPageService aboutPageService;
         ContactPageServices contactPageServices;
+        IndexPageServices indexPageServices;
 
         public HomeController()
         {
             aboutPageService = new AboutPageService();
             contactPageServices = new ContactPageServices();
+            indexPageServices = new IndexPageServices();
         }
 
         [HttpGet]
         public ActionResult Index()
         {
-            return View();
+            var index = indexPageServices.GetIndexPage();
+            return View(index);
         }
 
         [HttpGet]

@@ -1,5 +1,5 @@
 ﻿#nav {
-    padding: 20px 10px;
+    /*padding: 20px 10px;*/
     background: #5c573e;
     display: block;
     position: fixed;
@@ -14,6 +14,7 @@
 
     .navbar-right a {
         color: #c8d96f;
+        font-size: 1px;
     }
 
 #logo {
@@ -25,9 +26,9 @@
 }
 
 #logo a {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    font-family: Ubuntu, sans-serif;
+    font-family: sans-serif;
     color: #c8d96f;
     font-weight: 400;
     font-style: normal;
@@ -53,6 +54,9 @@
         padding: 10px;
         transition: 0.4s;
     }
+
+
+
 
 
 

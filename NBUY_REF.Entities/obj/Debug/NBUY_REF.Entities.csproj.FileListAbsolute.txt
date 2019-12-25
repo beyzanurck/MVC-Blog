@@ -4,3 +4,9 @@ C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.Entities\obj\Debug\NBUY_REF.Entit
 C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.Entities\obj\Debug\NBUY_REF.Entities.csproj.CoreCompileInputs.cache
 C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.Entities\obj\Debug\NBUY_REF.Entities.dll
 C:\Users\nurce\source\repos\BlogDay87\NBUY_REF.Entities\obj\Debug\NBUY_REF.Entities.pdb
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\BlogDay87\NBUY_REF.Entities\bin\Debug\NBUY_REF.Entities.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\BlogDay87\NBUY_REF.Entities\bin\Debug\NBUY_REF.Entities.pdb
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\BlogDay87\NBUY_REF.Entities\obj\Debug\NBUY_REF.Entities.csprojAssemblyReference.cache
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\BlogDay87\NBUY_REF.Entities\obj\Debug\NBUY_REF.Entities.csproj.CoreCompileInputs.cache
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\BlogDay87\NBUY_REF.Entities\obj\Debug\NBUY_REF.Entities.dll
+C:\Users\nurce\Desktop\Bilge-Adam\DERSLER\Day88-94\BlogDay87\NBUY_REF.Entities\obj\Debug\NBUY_REF.Entities.pdb
