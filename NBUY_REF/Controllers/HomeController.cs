@@ -1,4 +1,6 @@
-﻿using NBUY_REF.Services;
+﻿using NBUY_REF.Entities;
+using NBUY_REF.Extentions;
+using NBUY_REF.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,8 +32,10 @@ namespace NBUY_REF.Controllers
         [HttpGet]
         public ActionResult About()
         {
-            var about = aboutPageService.GetAbout();
-            return View(about);
+            var about = aboutPageService.GetAbout();            
+            var viewModel = AboutExtentions.GetAboutViewModel(about);
+            //var about = aboutPageService.GetAbout().GetAboutViewModel();
+            return View(viewModel);
         }
 
         [HttpGet]

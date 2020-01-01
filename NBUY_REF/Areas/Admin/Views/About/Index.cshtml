@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.AdminTitle = "Hakkımda içeriği";
+}
+@model AboutViewModel
+
+<hr />
+
+<a href="@Url.Action("Edit")" class="btn btn-block btn-outline-primary">
+    Düzenle
+</a> <br />
+<h4 class="text-center" style="color:blue">
+    @Model.Title
+</h4> <br />
+@Html.Raw(@Model.Description)
+
+
+

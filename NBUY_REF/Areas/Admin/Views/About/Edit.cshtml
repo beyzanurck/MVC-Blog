@@ -1,0 +1,65 @@
+﻿@model AboutViewModel
+
+@{
+    ViewBag.AdminTitle = "Hakkımda Düzenleme";
+}
+
+
+@section CustomAdminStyle
+{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js" integrity="sha256-sPB0F50YUDK0otDnsfNHawYmA5M0pjjUf4TvRJkGFrI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js" integrity="sha256-9GycpJnliUjJDVDqP0UEu/bsm9U+3dnQUH8+3W10vkY=" crossorigin="anonymous"></script>
+
+}
+
+
+
+
+@using (Html.BeginForm("Edit", "About", FormMethod.Post))
+{
+    @*<div class="form-group">
+            <div class="row">
+                @Html.ValidationSummary()
+            </div>
+        </div>*@
+
+    @Html.HiddenFor(i=>i.Id)
+    <div class="form-group">
+        <div class="row">
+            <div class="col-2">
+                @*<label> Başlık </label>*@
+                @Html.DisplayNameFor(i => i.Title)
+            </div>
+
+            <div class="col-10">
+                @*<input type="text" class="form-control" value="@Model.TitleName"/>*@
+                @Html.TextBoxFor(i => i.Title, new { @class = "form-control", placeholder = "Başlık giriniz" })
+                @Html.ValidationMessageFor(i => i.Title, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-2">
+                @Html.LabelFor(i => i.Description)
+                @*<label> İçerik </label>*@
+            </div>
+
+            <div class="col-10">
+                @*<input type="text" class="form-control" value="@Model.AboutDescription" />*@
+                @Html.EditorFor(i => i.Description, new { htmlAttributes = new { @class = "form-control", placeholder = "Başlık giriniz" } })
+                @Html.ValidationMessageFor(i => i.Description, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+
+        <input type="submit" value="Düzenle" class="btn btn-info justify-content-end" />
+    </div>
+}
+
+
+

@@ -23,6 +23,11 @@ namespace NBUY_REF.Services
             var aboutPage = aboutManagement.GetAboutPage();
             return aboutPage;
         }
+
+        public void UpdateAbout(AboutPage aboutPage)
+        {
+            var result = aboutManagement.EditAboutPage(aboutPage);
+        }
     }
 
     

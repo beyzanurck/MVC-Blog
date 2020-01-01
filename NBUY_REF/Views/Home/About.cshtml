@@ -1,4 +1,4 @@
-﻿@model AboutPage
+﻿@model AboutViewModel
 
 @{
     ViewBag.Title = "Hakkımda";
@@ -6,8 +6,8 @@
 
 <div>
 
-    <h2 class="text-center">@Model.TitleName</h2>
-    @Html.Raw(Model.AboutDescription)
+    <h2 class="text-center">@Model.Title</h2>
+    @Html.Raw(Model.Description)
 
     
 
